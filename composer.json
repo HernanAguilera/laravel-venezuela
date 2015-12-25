@@ -1,0 +1,21 @@
+{
+    "name": "h34/laravel-venezuela",
+    "description": "Paquete para Laravel 4 y 5 con modelos y migraciones para estados, ciudades, municipios y parroquias de Venezuela",
+    "require": {
+      "php": ">=5.5.9",
+      "illuminate/support": "5.2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hernán Aguilera",
+            "email": "haguilera@openmailbox.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "H34\\LaravelVenezuela\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
